@@ -5,7 +5,7 @@
   - **Sympteller** – an AI-powered disease detection app with multi-model logic and smart GUI
   - **Raspberry Pi 4 project** – building smart embedded solutions for real-world problems
 - 💞️ I’m open to collaborating on innovative projects involving **AI**, **hardware-software integration**, or **intelligent UI/UX systems**
-- 📫 How to reach me: *debopam.contact@gmail.com*
+- 📫 How to reach me: *debopam.dutta2024@uem.edu.in*
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I’m a biotech student with a deep passion for tech, constantly bridging biology and computing in creative ways
 
