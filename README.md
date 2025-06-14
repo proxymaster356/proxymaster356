@@ -12,7 +12,7 @@
 ---
 ## 🚀 Projects
 
-### 🔐 Smart 4-Factor Attendance System
+### 🔐 Smart 2-Factor Attendance System
 ![](https://img.shields.io/badge/Hardware-RaspberryPi-green?style=flat-square) ![](https://img.shields.io/badge/Tech-Face_Recognition-blue?style=flat-square) ![](https://img.shields.io/badge/Tech-RFID-orange?style=flat-square)
 
 A secure and intelligent attendance system using:
