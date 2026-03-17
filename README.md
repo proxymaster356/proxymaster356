@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Debopam%20Dutta&fontSize=50&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Biotechnology%20Engineer%20%7C%20AI%2FML%20Builder%20%7C%20IoT%20Tinkerer&descAlignY=58&descSize=18&descColor=8b949e" />
 
 <img
-  src="https://raw.githubusercontent.com/proxymaster356/debopam_portfolio/master/public/profile-1.jpeg"
+  src="https://newportfolio-navy-xi.vercel.app/profile-1.jpeg"
   alt="Debopam Dutta"
   width="160"
   style="border-radius: 50%; border: 3px solid #58a6ff;"
