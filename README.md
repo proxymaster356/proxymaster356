@@ -2,6 +2,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Debopam%20Dutta&fontSize=50&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Biotechnology%20Engineer%20%7C%20AI%2FML%20Builder%20%7C%20IoT%20Tinkerer&descAlignY=58&descSize=18&descColor=8b949e" />
 
+<img
+  src="https://raw.githubusercontent.com/proxymaster356/debopam_portfolio/master/public/profile-1.jpeg"
+  alt="Debopam Dutta"
+  width="160"
+  style="border-radius: 50%; border: 3px solid #58a6ff;"
+/>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=🧬+Biology+meets+Artificial+Intelligence;🤖+Building+AI+for+Real-World+Impact;🔬+Biotech+Engineer+%7C+ML+Practitioner;🛠️+From+Sensors+to+Neural+Networks)](https://git.io/typing-svg)
 
 </div>
@@ -23,7 +30,7 @@ Hey there! I'm **Debopam** — a 2nd year **B.Tech Biotechnology** student at **
 
 ## 🚀 Featured Projects
 
-### 🌾 CropIntel *(Completed Recently)*
+### 🌾 CropIntel *(In Progress)*
 > **Real-time Android app for intelligent crop management**
 
 A full-stack agricultural intelligence platform that fuses live IoT sensor data (soil moisture, temperature, humidity, pH) with real-time weather API feeds to give farmers actionable insights. Features an on-device **plant disease detection model** using computer vision, and an AI recommendation engine for optimizing crop yield based on field conditions, growth stage, and historical patterns.
@@ -34,11 +41,11 @@ A full-stack agricultural intelligence platform that fuses live IoT sensor data 
 - 🤖 AI yield optimizer — personalized crop management recommendations
 - 📱 Built natively for Android with Kotlin + Jetpack Compose
 
-`Flutter` `Jetpack Compose` `Firebase` `ESP32` `MQTT` `OpenCV` `TensorFlow Lite` `Weather API` `CNN` `IoT` `Ollama` `pytorch`
+`Kotlin` `Jetpack Compose` `Firebase` `ESP32` `MQTT` `OpenCV` `TensorFlow Lite` `Weather API` `CNN` `IoT`
 
 ---
 
-### 🌿 BioRemed AI 
+### 🌿 BioRemed AI *(In Progress)*
 > **AI-powered soil contamination & bioremediation planning system**
 
 An M.Tech-level environmental intelligence platform using dual Random Forest classifiers for contamination severity assessment and a locally-running **LLaMA 3.2 Vision 11B** (via Ollama) for soil image analysis. Designed with Kolkata/Howrah industrial belt data in mind.
@@ -76,7 +83,7 @@ Automates bacterial colony counting from petri dish images, designed for biologi
 
 ---
 
-### 💊 Automated Bacterial ID & Antibiotic Resistance Analyzer *(In Progress)*
+### 💊 Automated Bacterial ID & Antibiotic Resistance Analyzer
 > **AI-powered clinical diagnostic tool**
 
 Identifies bacterial species and analyzes antibiotic resistance patterns from zone of inhibition data using machine learning.
