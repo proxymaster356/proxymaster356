@@ -1,0 +1,14 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1E"/>
+      <stop offset="70%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0A0F1E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="920" cy="170" r="140" fill="#00A896" fill-opacity="0.22"/>
+  <circle cx="250" cy="510" r="120" fill="#FFB703" fill-opacity="0.2"/>
+  <text x="100" y="280" fill="#00A896" font-family="Inter, Arial" font-size="72" font-weight="700">Debopam Dutta</text>
+  <text x="100" y="360" fill="#E5E7EB" font-family="Inter, Arial" font-size="34">AI • Computer Vision • IoT • Biomedical Systems</text>
+</svg>
