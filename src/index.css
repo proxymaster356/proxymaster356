@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Fix rotated phone images using EXIF orientation */
+  img {
+    image-orientation: from-image;
+  }
+
+  body {
+    @apply m-0 min-h-screen font-body antialiased transition-colors duration-500;
+    @apply bg-backgroundLight text-slate-800 dark:bg-backgroundDark dark:text-slate-100;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply bg-accentTeal/30 text-white;
+  }
+}
+
+@layer components {
+  /* ── Glass card utility ── */
+  .glass-card {
+    @apply rounded-2xl border transition-all duration-300;
+    @apply border-white/30 bg-white/60 shadow-card-light backdrop-blur-xl;
+    @apply dark:border-white/[0.08] dark:bg-white/[0.04] dark:shadow-card-dark dark:backdrop-blur-xl;
+  }
+
+  .glass-card:hover {
+    @apply shadow-card-hover-light dark:shadow-card-hover-dark;
+    @apply border-accentTeal/20 dark:border-accentTeal/20;
+  }
+
+  /* ── Section heading accent bar ── */
+  .section-heading {
+    @apply relative inline-block font-heading text-3xl font-bold text-slate-900 dark:text-white sm:text-4xl;
+  }
+
+  .section-heading::after {
+    content: '';
+    @apply absolute -bottom-2 left-0 h-1 w-12 rounded-full bg-gradient-to-r from-accentTeal to-accentAmber;
+  }
+
+  /* ── Mesh background overlay ── */
+  .bg-mesh {
+    @apply bg-mesh-light dark:bg-mesh-dark;
+  }
+
+  /* ── Glow accent dot ── */
+  .glow-dot {
+    @apply absolute h-64 w-64 rounded-full opacity-20 blur-[100px];
+  }
+
+  /* ── Infinite marquee ── */
+  .marquee-strip {
+    animation: marquee-scroll 40s linear infinite;
+  }
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@layer utilities {
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-300 dark:bg-slate-700;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400 dark:bg-slate-600;
+  }
+}

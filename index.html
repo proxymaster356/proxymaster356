@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/og-image.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debopam Dutta | AI, CV & IoT Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Debopam Dutta, Biotechnology Engineering student at UEM Kolkata focused on AI, computer vision, IoT, and biomedical systems."
+    />
+    <meta property="og:title" content="Debopam Dutta | AI, CV & IoT Portfolio" />
+    <meta
+      property="og:description"
+      content="Building intelligent systems at the intersection of biology and technology."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta name="theme-color" content="#0A0F1E" />
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem('dd-theme') || 'dark'
+          if (savedTheme === 'dark') document.documentElement.classList.add('dark')
+          else document.documentElement.classList.remove('dark')
+        } catch (e) {
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
